@@ -1,208 +1,190 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,6,12,20&height=230&section=header&text=IVX&fontSize=72&fontColor=FFFFFF&fontAlign=50&fontAlignY=42&animation=fadeIn&desc=VFX%20%20%C2%B7%20%203D%20%20%C2%B7%20%20Creative%20Tools%20%20%C2%B7%20%20Motion%20Design&descSize=17&descAlign=50&descAlignY=62&descColor=E8E8E8" />
-
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=21&weight=600&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=720&lines=Video+Editor+%7C+VFX+Artist;3D+%2F+CGI+Artist;Motion+Designer+%7C+Creative+Technologist;Building+Tools+for+Creative+Workflows;Blending+Art%2C+Code+%26+Technology" alt="Typing SVG" />
+<img width="100%" src="https://raw.githubusercontent.com/64r3al/IVX/main/assets/ivx-royal-banner.svg" alt="IVX — House of IVX" />
 
 <br/>
 
-<img src="https://img.shields.io/badge/Algeria-Location-3FB950?style=flat-square&labelColor=0D1117" />
-<img src="https://img.shields.io/badge/IVX-Creative%20Technology-58A6FF?style=flat-square&labelColor=0D1117" />
-<img src="https://img.shields.io/badge/VFX%20%26%203D-Active-A371F7?style=flat-square&labelColor=0D1117" />
-<img src="https://komarev.com/ghpvc/?username=64r3al&style=flat-square&color=58A6FF&labelColor=0D1117&label=Profile+Views" />
-
-<br/><br/>
-
-<a href="https://github.com/64r3al">
-<img src="https://img.shields.io/badge/GitHub-64r3al-111111?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" />
-</a>
-<a href="https://github.com/64r3al?tab=repositories">
-<img src="https://img.shields.io/badge/Projects-Explore-58A6FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" />
-</a>
+<a href="https://github.com/64r3al?tab=repositories"><img src="https://img.shields.io/badge/ARCHIVE-EXPLORE%20PROJECTS-10100d?style=for-the-badge&logo=github&logoColor=cdb879&labelColor=070707" /></a>
+<a href="mailto:ivxrxfx@gmail.com"><img src="https://img.shields.io/badge/STUDIO-IVXRXFX-10100d?style=for-the-badge&logo=gmail&logoColor=cdb879&labelColor=070707" /></a>
+<a href="https://github.com/64r3al"><img src="https://komarev.com/ghpvc/?username=64r3al&style=for-the-badge&color=8b6a2e&label=VISITORS&labelColor=070707" /></a>
 
 </div>
 
----
+<br/>
 
-## 🧑‍💻 About Me
+<div align="center">
+<img width="92%" src="https://raw.githubusercontent.com/64r3al/IVX/main/assets/ivx-divider.svg" alt="" />
+</div>
+
+## I. THE ATELIER
+
+<div align="center">
+
+**I don't separate art from technology.**
+
+</div>
+
+I work between **video editing, VFX, 3D / CGI, motion design and software**.
+
+The common thread is simple: take an idea, give it a visual language, then build the system behind it when the idea needs more than a timeline can provide.
 
 ~~~text
-IVX {
-  focus: "Creative Technology",
-  craft: ["Video Editing", "VFX", "3D / CGI", "Motion Design"],
-  tools: ["After Effects", "Blender", "Houdini", "Unreal Engine"],
-  code: ["TypeScript", "JavaScript", "Python", "Lua"],
-  systems: ["Creative Automation", "AI Tools", "Discord", "FiveM"],
-  experience: "5+ years editing / 10+ years in 3D art",
-  mindset: "Make it work. Make it look right. Push it further."
-}
+CRAFT       →  EDITING / VFX / MOTION / 3D
+ENGINE      →  BLENDER / AFTER EFFECTS / HOUDINI / UNREAL
+SYSTEMS     →  TYPESCRIPT / JAVASCRIPT / PYTHON / LUA
+EXPERIMENTS →  AI TOOLS / AUTOMATION / INTERACTIVE SYSTEMS
 ~~~
 
-I'm a self-taught creative technologist working between **visual storytelling, VFX, 3D and software**.
+---
 
-I build visuals, but I also build the **tools and workflows behind the visuals**.
+## II. THE CHESSBOARD
+
+> **Every project is a position. Every decision changes the board.**
+
+| Piece | Role |
+|---|---|
+| ♔ **KING** | Creative direction — where the piece is going |
+| ♕ **QUEEN** | Visual systems — the strongest tool in the set |
+| ♜ **ROOK** | Engineering — structure, reliability, automation |
+| ♞ **KNIGHT** | Experiments — unusual workflows and technical ideas |
+| ♝ **BISHOP** | Detail — composition, motion, timing, polish |
+| ♙ **PAWN** | Iteration — small changes that become the final work |
 
 ---
 
-## 🎬 What I'm Building
+## III. SELECTED WORK
 
-- 🎞️ **Editing & VFX** — cinematic edits, motion graphics and compositing
-- ◈ **3D / CGI** — Blender, Geometry Nodes, procedural workflows and environments
-- ⚙️ **Creative Software** — tools that remove repetitive production work
-- 🤖 **AI Workflows** — transcription, automation and creative assistants
-- 🖥️ **Interactive Systems** — interfaces, server tools and experiments
+### ♛ GROQ CAPTIONS
+**After Effects / Groq / Whisper**
 
----
+A creative-production tool that turns spoken audio into synchronized animated captions inside After Effects.
 
-## 🚀 Featured Projects
+**Stack:** TypeScript · React · CEP · ExtendScript · FFmpeg · Groq
 
-### 🎙️ Groq Captions
-**After Effects × Groq × Whisper**
+[ENTER THE PROJECT →](https://github.com/64r3al/Groq-Captions)
 
-AI-powered word-synced captions for Adobe After Effects.
+### ♜ MAP MUSIC PLAYER
+**FiveM / NUI / Lua**
 
-TypeScript · React · CEP · ExtendScript · Groq · FFmpeg
+An in-game music system combining gameplay interaction, audio playback and a custom UI.
 
-[View project →](https://github.com/64r3al/Groq-Captions)
+**Stack:** Lua · JavaScript · HTML · CSS · FiveM NUI
 
-### 🎵 Map Music Player
-**FiveM × NUI × Lua**
+[ENTER THE PROJECT →](https://github.com/64r3al/Map-Music-Player)
 
-A modern in-game music system with playback controls and a custom interface.
+### ♞ DISCORD ROLE / NICKNAME MANAGER
+**Automation / Community Infrastructure**
 
-Lua · HTML · CSS · JavaScript · FiveM NUI
+Persistent member state, restoration, permissions and audit-oriented Discord tooling.
 
-[View project →](https://github.com/64r3al/Map-Music-Player)
+**Stack:** Python · discord.py · MongoDB · Discord API
 
-### 🤖 Discord Systems
-Persistent role, nickname, logging and restoration tooling.
+[ENTER THE PROJECT →](https://github.com/64r3al/Discord-Role-Nickname)
 
-Python · discord.py · MongoDB · Discord API
+### ♝ AURA CAPITAL ENGINE
+**Systems / Product Logic**
 
-[View project →](https://github.com/64r3al/Discord-Role-Nickname)
-
-### 💰 AURA Capital Engine
 A systems experiment around deterministic cash-flow distribution and run-rate forecasting.
 
-Automation · Systems Design · Product Logic
+**Focus:** Automation · Rules · Forecasting · Product Systems
 
-[View project →](https://github.com/64r3al/AURA-Capital-Engine)
+[ENTER THE PROJECT →](https://github.com/64r3al/AURA-Capital-Engine)
 
 ---
 
-## 🛠️ Stack
+<div align="center">
+<img width="92%" src="https://raw.githubusercontent.com/64r3al/IVX/main/assets/ivx-divider.svg" alt="" />
+</div>
 
-### Creative / 3D
-<p>
-<img src="https://skillicons.dev/icons?i=blender,unreal,houdini,ps,pr&perline=6" />
-</p>
+## IV. THE BLACK BOOK
 
-After Effects · Blender · Unreal Engine · Houdini · Premiere Pro · Photoshop
+### VISUAL
+<img src="https://skillicons.dev/icons?i=blender,unreal,houdini,ps,pr&perline=5" />
 
-### Development
-<p>
+After Effects · Blender · Houdini · Unreal Engine · Premiere Pro · Photoshop
+
+### CODE
 <img src="https://skillicons.dev/icons?i=typescript,javascript,python,lua,react,nodejs,html,css,git,github&perline=10" />
-</p>
 
 TypeScript · JavaScript · Python · Lua · React · Node.js · HTML · CSS · Git
 
+### CREATIVE INFRASTRUCTURE
+
+Groq · FFmpeg · Discord API · FiveM · Geometry Nodes · CEP / ExtendScript
+
 ---
 
-## 📊 GitHub Stats
+## V. THE LEDGER
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=64r3al&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&bg_color=0D1117&border_color=30363D&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=64r3al&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0b0a08&title_color=cdb879&icon_color=cdb879&text_color=d9d2c2" />
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=64r3al&layout=compact&langs_count=8&theme=github_dark&bg_color=0D1117&border_color=30363D&title_color=58A6FF&text_color=C9D1D9" />
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=64r3al&layout=compact&langs_count=8&hide_border=true&bg_color=0b0a08&title_color=cdb879&text_color=d9d2c2" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=64r3al&theme=github-dark-blue&background=0D1117&border=30363D&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=64r3al&theme=dark&hide_border=true&background=0b0a08&ring=cdb879&fire=9e7b37&currStreakLabel=cdb879" />
 
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## VI. THE ARCHIVE
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=64r3al&theme=algolia&no-frame=true&no-bg=true&margin-w=6&column=7" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=64r3al&theme=darkhub&no-frame=true&no-bg=true&margin-w=5&column=7" />
+
 </div>
 
 ---
 
-## 📈 Contribution Graph
+## VII. THE BOARD
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=64r3al&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_border=true" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=64r3al&bg_color=0B0A08&color=CDB879&line=8D7139&point=EEE6D4&area=true&hide_border=true" />
+
 </div>
 
 ---
 
-## 🧭 Creative Journey
+## VIII. THE NEXT MOVE
 
 ~~~text
-EARLY
-  └── Editing / visual experiments
-        ↓
-  └── Motion Design / VFX
-        ↓
-  └── 3D / CGI / Blender
-        ↓
-  └── Procedural & technical workflows
-        ↓
-NOW
-  ├── Creative software
-  ├── AI-assisted editing tools
-  ├── VFX / 3D production
-  └── Interactive systems
+CURRENT POSITION
 
-NEXT
-  └── Build tools that make creative production faster,
-      smarter and more expressive.
+01  Creative software
+02  AI-assisted editing workflows
+03  VFX / 3D production
+04  Procedural experiments
+05  Interactive systems
+
+OBJECTIVE
+
+Build things that feel like they belong to a world —
+not just another folder on a hard drive.
 ~~~
 
 ---
 
-## 📚 Currently Exploring
-
-| Area | Focus |
-|------|-------|
-| 🎬 Post Production | Advanced compositing, motion systems, VFX workflows |
-| ◈ 3D / CGI | Geometry Nodes, procedural art, environments |
-| 🧠 AI Tools | Creative automation and production assistants |
-| ⚙️ Software | Extensions, workflow tools and automation systems |
-| 🌐 Interactive | Web interfaces, server tools and creative applications |
-
----
-
-## 🌐 Connect
-
 <div align="center">
 
-<a href="https://github.com/64r3al">
-<img src="https://img.shields.io/badge/GitHub-64r3al-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+**IVX / HOUSE OF IVX**
 
-<a href="https://github.com/64r3al?tab=repositories">
-<img src="https://img.shields.io/badge/Repositories-Browse-58A6FF?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+*Visuals are the language. Systems are the leverage.*
+
+<br/>
+
+<a href="https://github.com/64r3al">GITHUB</a>
+&nbsp;&nbsp;◆&nbsp;&nbsp;
+<a href="mailto:ivxrxfx@gmail.com">STUDIO</a>
+&nbsp;&nbsp;◆&nbsp;&nbsp;
+<a href="https://github.com/64r3al?tab=repositories">ARCHIVE</a>
 
 <br/><br/>
 
-**BUILD. CREATE. BREAK. REBUILD.**
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=130&section=footer&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:070707,50:3b2d16,100:070707&height=110&section=footer" />
 
 </div>
