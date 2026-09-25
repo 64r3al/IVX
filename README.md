@@ -24,15 +24,16 @@
 
 </div>
 
-I work between **video editing, VFX, 3D / CGI, motion design and software**.
+I work between **video editing, VFX, 3D / CGI, motion design, digital art and software**.
 
 The common thread is simple: take an idea, give it a visual language, then build the system behind it when the idea needs more than a timeline can provide.
 
 ~~~text
-CRAFT       →  EDITING / VFX / MOTION / 3D
-ENGINE      →  BLENDER / AFTER EFFECTS / HOUDINI / UNREAL
+CRAFT       →  EDITING / VFX / MOTION / 3D / DESIGN
+ENGINE      →  AFTER EFFECTS / BLENDER / HOUDINI / C4D / UNREAL
+ART         →  PHOTOSHOP / ILLUSTRATOR / KRITA / CLIP STUDIO
 SYSTEMS     →  TYPESCRIPT / JAVASCRIPT / PYTHON / LUA
-EXPERIMENTS →  AI TOOLS / AUTOMATION / INTERACTIVE SYSTEMS
+EXPERIMENTS →  AI / PROCEDURAL / SIMULATION / AUTOMATION
 ~~~
 
 ---
@@ -98,23 +99,80 @@ A systems experiment around deterministic cash-flow distribution and run-rate fo
 
 ## IV. THE BLACK BOOK
 
-### VISUAL
-<img src="https://skillicons.dev/icons?i=blender,unreal,houdini,ps,pr&perline=5" />
+### 🎬 EDITING / COMPOSITING / MOTION
 
-After Effects · Blender · Houdini · Unreal Engine · Premiere Pro · Photoshop
+**Adobe After Effects** · **Adobe Premiere Pro** · **Adobe Media Encoder** · **DaVinci Resolve** · **CapCut** · **Topaz Video AI** · **HandBrake**
 
-### CODE
+### ◈ 3D / CGI / ENVIRONMENTS
+
+**Blender** · **Cinema 4D** · **Houdini** · **Houdini Launcher** · **Unreal Engine** · **DAZ Studio / DAZ3D** · **Marvelous Designer** · **EmberGen** · **Cargo by KitBash3D** · **PureRef** · **Nuke** · **SynthEyes** · **Khayn 3D**
+
+### ✦ VFX / SIMULATION / PROCEDURAL
+
+**Particle Illusion** · **EmberGen** · **Houdini** · **TouchDesigner** · **Nuke** · **SynthEyes** · **Geometry Nodes** · **OpenIV**
+
+### 🎨 DIGITAL ART / DESIGN / ILLUSTRATION
+
+**Adobe Photoshop** · **Adobe Illustrator** · **Krita** · **Clip Studio Paint** · **FaceGen** · **Framer**
+
+### 🎵 AUDIO / MUSIC
+
+**FL Studio 2024**
+
+### 🤖 AI / GENERATIVE / WORKFLOW
+
+**ComfyUI Desktop** · **Groq** · **AI-assisted creative pipelines** · **procedural workflows**
+
+### ⚙️ PRODUCTION / PIPELINE / UTILITIES
+
+**PDF-XChange Editor** · **ClipGrab** · **Everything** · **WinDirStat** · **Dolphin Anty** · **UserBenchmark**
+
+### 💻 CODE / CREATIVE ENGINEERING
+
 <img src="https://skillicons.dev/icons?i=typescript,javascript,python,lua,react,nodejs,html,css,git,github&perline=10" />
 
-TypeScript · JavaScript · Python · Lua · React · Node.js · HTML · CSS · Git
+**TypeScript** · **JavaScript** · **Python** · **Lua** · **React** · **Node.js** · **HTML** · **CSS** · **Git**
 
 ### CREATIVE INFRASTRUCTURE
 
-Groq · FFmpeg · Discord API · FiveM · Geometry Nodes · CEP / ExtendScript
+**FFmpeg** · **Discord API** · **FiveM** · **CEP / ExtendScript** · **Geometry Nodes** · **Groq API**
 
 ---
 
-## V. THE LEDGER
+## V. THE PRODUCTION PHILOSOPHY
+
+~~~text
+A VISUAL WORKFLOW IS NOT ONE TOOL.
+
+EDIT
+  ↓
+COMPOSITE
+  ↓
+DESIGN
+  ↓
+MODEL
+  ↓
+SIMULATE
+  ↓
+TEXTURE
+  ↓
+ANIMATE
+  ↓
+LIGHT
+  ↓
+RENDER
+  ↓
+GRADE
+  ↓
+DELIVER
+
+The software changes.
+The eye stays the same.
+~~~
+
+---
+
+## VI. THE LEDGER
 
 <div align="center">
 
@@ -130,7 +188,7 @@ Groq · FFmpeg · Discord API · FiveM · Geometry Nodes · CEP / ExtendScript
 
 ---
 
-## VI. THE ARCHIVE
+## VII. THE ARCHIVE
 
 <div align="center">
 
@@ -140,7 +198,7 @@ Groq · FFmpeg · Discord API · FiveM · Geometry Nodes · CEP / ExtendScript
 
 ---
 
-## VII. THE BOARD
+## VIII. THE BOARD
 
 <div align="center">
 
@@ -150,7 +208,7 @@ Groq · FFmpeg · Discord API · FiveM · Geometry Nodes · CEP / ExtendScript
 
 ---
 
-## VIII. THE NEXT MOVE
+## IX. THE NEXT MOVE
 
 ~~~text
 CURRENT POSITION
@@ -159,7 +217,10 @@ CURRENT POSITION
 02  AI-assisted editing workflows
 03  VFX / 3D production
 04  Procedural experiments
-05  Interactive systems
+05  Digital art & design
+06  Simulation & environments
+07  Interactive systems
+08  Audio / music / media
 
 OBJECTIVE
 
