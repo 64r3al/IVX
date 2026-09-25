@@ -101,103 +101,11 @@ A systems experiment around deterministic cash-flow distribution and run-rate fo
 
 <div align="center">
 
-### 🎬 EDITING / COMPOSITING
-
-<table>
-<tr>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/adobeaftereffects/9999FF"><br/><sub>After Effects</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/adobepremierepro/9999FF"><br/><sub>Premiere Pro</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/adobemediaencoder/9999FF"><br/><sub>Media Encoder</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/davinciresolve/9999FF"><br/><sub>DaVinci Resolve</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/capcut/FFFFFF"><br/><sub>CapCut</sub></td>
-</tr>
-<tr>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/topazlabs/FFFFFF"><br/><sub>Topaz Video AI</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/handbrake/FFFFFF"><br/><sub>HandBrake</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/ffmpeg/FFFFFF"><br/><sub>FFmpeg</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/adobe/FFFFFF"><br/><sub>Adobe</sub></td>
-<td align="center"><img height="42" src="https://skillicons.dev/icons?i=github"><br/><sub>Production</sub></td>
-</tr>
-</table>
-
-### ◈ 3D / CGI / WORLDS
-
-<table>
-<tr>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/blender/E87D0D"><br/><sub>Blender</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/houdini/FF471C"><br/><sub>Houdini</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/maxon/FFFFFF"><br/><sub>Cinema 4D</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/unrealengine/FFFFFF"><br/><sub>Unreal</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/daz3d/FFFFFF"><br/><sub>DAZ 3D</sub></td>
-</tr>
-<tr>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/marvelousdesigner/FFFFFF"><br/><sub>Marvelous</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/kitbash3d/CDB879"><br/><sub>KitBash3D</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/pureref/CDB879"><br/><sub>PureRef</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/nuke/FFFFFF"><br/><sub>Nuke</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/syntheyes/CDB879"><br/><sub>SynthEyes</sub></td>
-</tr>
-<tr>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/touchdesigner/CDB879"><br/><sub>TouchDesigner</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/embergen/FF8A00"><br/><sub>EmberGen</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/opengl/FFFFFF"><br/><sub>OpenIV / 3D</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/geometrynodes/CDB879"><br/><sub>Geometry Nodes</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/khronos/FFFFFF"><br/><sub>Pipeline</sub></td>
-</tr>
-</table>
-
-### ✦ ART / DESIGN / ILLUSTRATION
-
-<table>
-<tr>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/adobephotoshop/31A8FF"><br/><sub>Photoshop</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/adobeillustrator/FF9A00"><br/><sub>Illustrator</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/krita/FFFFFF"><br/><sub>Krita</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/clipstudio/FFFFFF"><br/><sub>Clip Studio</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/framer/FFFFFF"><br/><sub>Framer</sub></td>
-</tr>
-<tr>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/facegen/CDB879"><br/><sub>FaceGen</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/comfyui/CDB879"><br/><sub>ComfyUI</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/adobesubstance3d/FF6B00"><br/><sub>Substance 3D</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/particleillusion/FFFFFF"><br/><sub>Particle Illusion</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/flstudio/FFFFFF"><br/><sub>FL Studio</sub></td>
-</tr>
-</table>
-
-### ⚙️ PRODUCTION / PIPELINE / UTILITIES
-
-<table>
-<tr>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/everything/FFFFFF"><br/><sub>Everything</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/windirstat/CDB879"><br/><sub>WinDirStat</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/pdf/FFFFFF"><br/><sub>PDF-XChange</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/userbenchmark/CDB879"><br/><sub>UserBenchmark</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/dolphin/FFFFFF"><br/><sub>Dolphin Anty</sub></td>
-</tr>
-<tr>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/obsidian/CDB879"><br/><sub>Notes / Research</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/clipgrab/FFFFFF"><br/><sub>ClipGrab</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/pdf/FFFFFF"><br/><sub>PDF Tools</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/rocket/FFFFFF"><br/><sub>Pipeline</sub></td>
-<td align="center"><img height="42" src="https://cdn.simpleicons.org/github/CDB879"><br/><sub>GitHub</sub></td>
-</tr>
-</table>
-
-### ♟ SPECIALIZED / LEGACY TOOLS
+### THE ICON WALL
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/UB-UserBenchmark-0b0a08?style=for-the-badge&logoColor=cdb879" />
-<img src="https://img.shields.io/badge/H21-Houdini%20Launcher-0b0a08?style=for-the-badge&logoColor=cdb879" />
-<img src="https://img.shields.io/badge/K3D-Khayn%203D-0b0a08?style=for-the-badge&logoColor=cdb879" />
-<img src="https://img.shields.io/badge/FG-FaceGen-0b0a08?style=for-the-badge&logoColor=cdb879" />
-<img src="https://img.shields.io/badge/S64-SynthEyes64-0b0a08?style=for-the-badge&logoColor=cdb879" />
-<img src="https://img.shields.io/badge/PI-Particle%20Illusion-0b0a08?style=for-the-badge&logoColor=cdb879" />
-<img src="https://img.shields.io/badge/PDF-PDF%20XChange-0b0a08?style=for-the-badge&logoColor=cdb879" />
-<img src="https://img.shields.io/badge/DAZ-DAZ3DIM-0b0a08?style=for-the-badge&logoColor=cdb879" />
-<img src="https://img.shields.io/badge/MD-Marvelous%20Designer-0b0a08?style=for-the-badge&logoColor=cdb879" />
-<img src="https://img.shields.io/badge/PC-Production%20Tools-0b0a08?style=for-the-badge&logoColor=cdb879" />
+<img width="100%" src="https://raw.githubusercontent.com/64r3al/IVX/main/assets/ivx-tool-vault.svg" alt="IVX production tool vault" />
 
 </div>
 
@@ -208,6 +116,7 @@ A systems experiment around deterministic cash-flow distribution and run-rate fo
 </p>
 
 **TypeScript** · **JavaScript** · **Python** · **Lua** · **React** · **Node.js** · **HTML** · **CSS** · **Git**
+
 
 </div>
 
