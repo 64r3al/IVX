@@ -1,81 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1160" viewBox="0 0 1200 1160">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1260" viewBox="0 0 1200 1260">
 <defs>
-  <linearGradient id="gold" x1="0" x2="1"><stop offset="0" stop-color="#8b6a2e"/><stop offset=".5" stop-color="#e2c778"/><stop offset="1" stop-color="#8b6a2e"/></linearGradient>
-  <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#15140f"/><stop offset="1" stop-color="#0b0a08"/></linearGradient>
-  <filter id="soft"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity=".28"/></filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050505"/><stop offset=".55" stop-color="#11100d"/><stop offset="1" stop-color="#050505"/></linearGradient>
+  <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#7e5e25"/><stop offset=".5" stop-color="#e4c979"/><stop offset="1" stop-color="#8f6a2c"/></linearGradient>
+  <linearGradient id="gold2" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f3dda0"/><stop offset="1" stop-color="#9a752f"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000" flood-opacity=".55"/></filter>
+  <filter id="shine"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="marble" width="140" height="140" patternUnits="userSpaceOnUse"><rect width="140" height="140" fill="#090908"/><path d="M-20 35C35 5 75 75 165 35M-40 110C20 60 95 155 180 95" fill="none" stroke="#161511" stroke-width="5"/></pattern>
+
+  <g id="ae"><rect x="0" y="0" width="54" height="54" rx="11" fill="#24154c" stroke="#8e65ff"/><path d="M13 42 22 15h10l9 27h-7l-2-6H20l-2 6zM22 31h8l-4-12zM43 42h7V15h-7z" fill="#d4c5ff"/></g>
+  <g id="pr"><rect x="0" y="0" width="54" height="54" rx="11" fill="#24165d" stroke="#6d75ff"/><text x="27" y="38" text-anchor="middle" fill="#b9c1ff" font-family="Arial" font-size="24" font-weight="700">Pr</text></g>
+  <g id="me"><rect x="0" y="0" width="54" height="54" rx="11" fill="#28164f" stroke="#9b6eff"/><text x="27" y="37" text-anchor="middle" fill="#dbcaff" font-family="Arial" font-size="22" font-weight="700">Me</text></g>
+  <g id="dr"><rect x="0" y="0" width="54" height="54" rx="11" fill="#191968" stroke="#7777ff"/><circle cx="27" cy="27" r="17" fill="none" stroke="#b9b9ff" stroke-width="3"/><circle cx="20" cy="27" r="4" fill="#b9b9ff"/><circle cx="31" cy="20" r="4" fill="#b9b9ff"/><circle cx="31" cy="34" r="4" fill="#b9b9ff"/><path d="M23 27h6M29 23l-2-3M29 31l-2 3" stroke="#b9b9ff" stroke-width="2"/></g>
+  <g id="cap"><rect x="0" y="0" width="54" height="54" rx="11" fill="#f2f2f2" stroke="#aaa"/><path d="M14 22c6-8 16-11 26-7l-8 8c-4-2-9-1-12 3l7 7c2-3 7-4 10-1l-6 7c-7 3-15 1-20-5l-3-4z" fill="#111"/><path d="m32 28 8-8 4 4-8 8z" fill="#555"/></g>
+  <g id="bl"><rect x="0" y="0" width="54" height="54" rx="11" fill="#181410" stroke="#d07a09"/><circle cx="21" cy="28" r="8" fill="#e87d0d"/><circle cx="33" cy="20" r="8" fill="#e87d0d"/><circle cx="35" cy="35" r="8" fill="#e87d0d"/><path d="M21 28 35 35M21 28 33 20M33 20 35 35" stroke="#0f0f0f" stroke-width="4"/><circle cx="27" cy="28" r="5" fill="#0f0f0f"/><circle cx="27" cy="28" r="2.5" fill="#e87d0d"/></g>
+  <g id="houd"><rect x="0" y="0" width="54" height="54" rx="11" fill="#ff471c" stroke="#ff9a7b"/><path d="M13 33c7-16 21-23 31-20-3 4-9 8-15 10 7 0 13 1 18 4-7 8-20 11-31 6 7-2 12-5 16-8-7 2-13 4-19 8z" fill="#101010"/></g>
+  <g id="c4d"><rect x="0" y="0" width="54" height="54" rx="11" fill="#1a1a1a" stroke="#7d7d7d"/><circle cx="27" cy="27" r="20" fill="none" stroke="#d4d4d4" stroke-width="3"/><text x="27" y="34" text-anchor="middle" fill="#fff" font-family="Arial" font-size="15" font-weight="700">C4D</text></g>
+  <g id="ue"><rect x="0" y="0" width="54" height="54" rx="11" fill="#151515" stroke="#aaa"/><circle cx="27" cy="27" r="19" fill="none" stroke="#eee" stroke-width="3"/><path d="M18 18v17c0 7 6 10 9 10s9-3 9-10V18h-6v17c0 3-2 5-3 5s-3-2-3-5V18z" fill="#fff"/></g>
+  <g id="d3d"><rect x="0" y="0" width="54" height="54" rx="11" fill="#231b3f" stroke="#a98fff"/><path d="M27 11c10 4 16 10 16 19 0 10-8 15-16 15S11 40 11 30c0-9 6-15 16-19z" fill="#5b3ca1"/><path d="M20 21h13c4 0 7 2 7 6s-3 6-7 6H20z" fill="#d5c6ff"/><path d="M23 24v6h8c2 0 3-1 3-3s-1-3-3-3z" fill="#5b3ca1"/></g>
+  <g id="md"><rect x="0" y="0" width="54" height="54" rx="11" fill="#103e48" stroke="#55c9da"/><path d="M13 39V15h7l7 11 7-11h7v24h-7V27l-7 11-7-11v12z" fill="#c5f8ff"/></g>
+  <g id="kb"><rect x="0" y="0" width="54" height="54" rx="11" fill="#5b2e16" stroke="#e3a071"/><text x="27" y="35" text-anchor="middle" fill="#ffe1c4" font-family="Arial" font-size="14" font-weight="700">KB3D</text></g>
+  <g id="pure"><rect x="0" y="0" width="54" height="54" rx="11" fill="#332715" stroke="#cba55b"/><text x="27" y="38" text-anchor="middle" fill="#f3dfad" font-family="Georgia" font-size="29" font-weight="700">P</text></g>
+  <g id="nuke"><rect x="0" y="0" width="54" height="54" rx="11" fill="#1b1b1b" stroke="#777"/><circle cx="27" cy="27" r="17" fill="none" stroke="#eee" stroke-width="3"/><path d="M17 17h20v5H23v5h10v5H23v5h14" fill="none" stroke="#fff" stroke-width="3"/></g>
+  <g id="eye"><rect x="0" y="0" width="54" height="54" rx="11" fill="#13243f" stroke="#5f8ddf"/><path d="M10 27c6-13 28-19 35 0-7 19-29 13-35 0z" fill="#6ea5ff"/><circle cx="27" cy="27" r="9" fill="#0d1627"/><circle cx="27" cy="27" r="4" fill="#fff"/></g>
+  <g id="td"><rect x="0" y="0" width="54" height="54" rx="11" fill="#251b0d" stroke="#d3ae50"/><circle cx="14" cy="16" r="4" fill="#e2c06b"/><circle cx="40" cy="16" r="4" fill="#e2c06b"/><circle cx="27" cy="38" r="4" fill="#e2c06b"/><path d="M18 18l7 16M36 18l-7 16" stroke="#e2c06b" stroke-width="3"/></g>
+  <g id="ember"><rect x="0" y="0" width="54" height="54" rx="11" fill="#401707" stroke="#ff8a2d"/><path d="M28 10c8 8 3 12 10 16 5 3 4 14-3 18-10 6-24 1-24-10 0-7 5-11 10-16 0 7 5 9 7 12 3-6-1-12 0-20z" fill="#ff7a20"/><path d="M28 24c4 5 7 7 5 12-2 5-9 6-12 2 0-4 4-7 7-14z" fill="#ffd36b"/></g>
+  <g id="pi"><rect x="0" y="0" width="54" height="54" rx="11" fill="#1e132b" stroke="#cc8fff"/><path d="M27 9l4 12 12-4-4 12 11 5-11 5 4 12-12-4-4 11-5-11-12 4 4-12-11-5 11-5-4-12 12 4z" fill="#c88cff"/><circle cx="27" cy="27" r="7" fill="#fff"/></g>
+  <g id="ps"><rect x="0" y="0" width="54" height="54" rx="11" fill="#08253d" stroke="#31a8ff"/><text x="27" y="38" text-anchor="middle" fill="#31a8ff" font-family="Arial" font-size="25" font-weight="700">Ps</text></g>
+  <g id="ai"><rect x="0" y="0" width="54" height="54" rx="11" fill="#3b2105" stroke="#ff9a00"/><text x="27" y="38" text-anchor="middle" fill="#ff9a00" font-family="Arial" font-size="25" font-weight="700">Ai</text></g>
+  <g id="krita"><rect x="0" y="0" width="54" height="54" rx="11" fill="#242424" stroke="#888"/><path d="M14 39c3-15 13-24 20-25 7 4 9 10 6 15-3 6-11 8-16 4l-10 6z" fill="#fff"/><circle cx="32" cy="18" r="5" fill="#ff4b65"/></g>
+  <g id="clip"><rect x="0" y="0" width="54" height="54" rx="11" fill="#281f35" stroke="#aa8cff"/><path d="M15 17 39 17 25 31 39 37 24 42 14 31 27 23z" fill="#fff"/></g>
+  <g id="framer"><rect x="0" y="0" width="54" height="54" rx="11" fill="#171717" stroke="#777"/><path d="M13 12h28v8H29l12 8v8H29v7h-8v-7H13v-8h13l-13-8z" fill="#fff"/></g>
+  <g id="face"><rect x="0" y="0" width="54" height="54" rx="11" fill="#292218" stroke="#b99149"/><ellipse cx="27" cy="28" rx="12" ry="16" fill="none" stroke="#e4cf9c" stroke-width="2"/><path d="M21 24h12M23 31h8M22 36h10" stroke="#d9c18a" stroke-width="2"/><circle cx="23" cy="27" r="1.6" fill="#d9c18a"/><circle cx="31" cy="27" r="1.6" fill="#d9c18a"/></g>
+  <g id="comfy"><rect x="0" y="0" width="54" height="54" rx="11" fill="#111e2a" stroke="#53bdf2"/><circle cx="16" cy="18" r="4" fill="#53bdf2"/><circle cx="38" cy="18" r="4" fill="#53bdf2"/><circle cx="27" cy="36" r="4" fill="#53bdf2"/><path d="M20 20l5 13M34 20l-5 13" stroke="#53bdf2" stroke-width="2.5"/></g>
+  <g id="sub"><rect x="0" y="0" width="54" height="54" rx="11" fill="#143012" stroke="#8bd35f"/><text x="27" y="39" text-anchor="middle" fill="#8bd35f" font-family="Arial" font-size="22" font-weight="700">3D</text></g>
+  <g id="fl"><rect x="0" y="0" width="54" height="54" rx="11" fill="#241335" stroke="#9f63ff"/><path d="M13 31c10 2 17-3 27-14 0 11-3 20-13 23-5 2-10-2-14-9z" fill="#ff7a00"/><path d="M30 15c6 5 8 9 8 16-5-5-9-7-13-8 2-3 3-5 5-8z" fill="#54d34b"/></g>
+  <g id="open"><rect x="0" y="0" width="54" height="54" rx="11" fill="#24201b" stroke="#d0b06d"/><text x="27" y="38" text-anchor="middle" fill="#e8d19a" font-family="Georgia" font-size="21" font-weight="700">IV</text></g>
+  <g id="geo"><rect x="0" y="0" width="54" height="54" rx="11" fill="#102d26" stroke="#5ed1a1"/><circle cx="27" cy="27" r="15" fill="none" stroke="#5ed1a1" stroke-width="3"/><path d="M17 31 27 16l11 15-11 7z" fill="none" stroke="#5ed1a1" stroke-width="3"/></g>
+  <g id="ff"><rect x="0" y="0" width="54" height="54" rx="11" fill="#202020" stroke="#aaa"/><text x="27" y="38" text-anchor="middle" fill="#fff" font-family="Arial" font-size="21" font-weight="700">FF</text></g>
 </defs>
-<rect width="1200" height="1160" rx="28" fill="#080806"/>
-<rect x="22" y="22" width="1156" height="1116" rx="22" fill="none" stroke="#3a2d16"/>
-<text x="60" y="68" fill="#d8bf7a" font-family="Georgia,serif" font-size="28" letter-spacing="5">THE IVX TOOL VAULT</text>
-<text x="60" y="96" fill="#6f654f" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">CREATIVE STACK • PRODUCTION ARSENAL • WORKFLOW SYSTEM</text>
 
-<!-- helper-like cards -->
-<g font-family="Arial,sans-serif" text-anchor="middle">
-<g transform="translate(60,125)">
-  <rect width="1080" height="180" rx="18" fill="url(#panel)" stroke="#3a2d16"/>
-  <text x="22" y="34" text-anchor="start" fill="#d8bf7a" font-family="Georgia,serif" font-size="18" letter-spacing="2">EDITING / COMPOSITING</text>
-  <g transform="translate(22,52)">
-    <rect width="190" height="108" rx="14" fill="#10100d" stroke="#514120"/>
-    <rect x="12" y="12" width="48" height="48" rx="10" fill="#2c174c"/><text x="36" y="45" font-size="19" font-weight="700" fill="#c8a9ff">AE</text><text x="95" y="88" font-size="14" fill="#eee6d4">After Effects</text>
-  </g>
-  <g transform="translate(232,52)">
-    <rect width="190" height="108" rx="14" fill="#10100d" stroke="#514120"/>
-    <rect x="12" y="12" width="48" height="48" rx="10" fill="#30205e"/><text x="36" y="45" font-size="19" font-weight="700" fill="#8ab4ff">Pr</text><text x="95" y="88" font-size="14" fill="#eee6d4">Premiere Pro</text>
-  </g>
-  <g transform="translate(442,52)">
-    <rect width="190" height="108" rx="14" fill="#10100d" stroke="#514120"/>
-    <rect x="12" y="12" width="48" height="48" rx="10" fill="#281b52"/><text x="36" y="45" font-size="17" font-weight="700" fill="#d1b7ff">Me</text><text x="95" y="88" font-size="14" fill="#eee6d4">Media Encoder</text>
-  </g>
-  <g transform="translate(652,52)">
-    <rect width="190" height="108" rx="14" fill="#10100d" stroke="#514120"/>
-    <rect x="12" y="12" width="48" height="48" rx="10" fill="#19165a"/><text x="36" y="45" font-size="17" font-weight="700" fill="#b5adff">DR</text><text x="95" y="88" font-size="14" fill="#eee6d4">DaVinci Resolve</text>
-  </g>
-  <g transform="translate(862,52)">
-    <rect width="190" height="108" rx="14" fill="#10100d" stroke="#514120"/>
-    <rect x="12" y="12" width="48" height="48" rx="10" fill="#171717"/><text x="36" y="45" font-size="16" font-weight="700" fill="#f1f1f1">CC</text><text x="95" y="88" font-size="14" fill="#eee6d4">CapCut</text>
-  </g>
-</g>
+<rect width="1200" height="1260" fill="url(#bg)"/>
+<rect x="22" y="22" width="1156" height="1216" rx="28" fill="url(#marble)" stroke="#3d2e17" stroke-width="2"/>
+<text x="60" y="70" fill="url(#gold2)" font-family="Georgia,serif" font-size="31" letter-spacing="5">THE IVX TOOL VAULT</text>
+<text x="60" y="98" fill="#756b56" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">CREATIVE STACK • PRODUCTION ARSENAL • WORKFLOW SYSTEM</text>
 
-<g transform="translate(60,325)">
-  <rect width="1080" height="300" rx="18" fill="url(#panel)" stroke="#3a2d16"/>
-  <text x="22" y="34" text-anchor="start" fill="#d8bf7a" font-family="Georgia,serif" font-size="18" letter-spacing="2">3D / CGI / WORLDS</text>
-  <g transform="translate(22,52)">
-    <rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#c86b0a"/><text x="36" y="45" font-size="20" font-weight="700" fill="#111">B</text><text x="95" y="82" font-size="14" fill="#eee6d4">Blender</text>
+<g font-family="Arial,sans-serif">
+  <g transform="translate(60 126)"><rect width="1080" height="190" rx="20" fill="#0d0d0b" stroke="#4f3b18"/><text x="24" y="36" fill="#d7bd79" font-family="Georgia,serif" font-size="20" letter-spacing="2">EDITING / COMPOSITING</text>
+    <g transform="translate(24 58)"><use href="#ae" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">After Effects</text></g>
+    <g transform="translate(236 58)"><use href="#pr" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">Premiere Pro</text></g>
+    <g transform="translate(448 58)"><use href="#me" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">Media Encoder</text></g>
+    <g transform="translate(660 58)"><use href="#dr" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">DaVinci Resolve</text></g>
+    <g transform="translate(872 58)"><use href="#cap" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">CapCut</text></g>
   </g>
-  <g transform="translate(232,52)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#e13f1c"/><text x="36" y="45" font-size="20" font-weight="700" fill="#fff">H</text><text x="95" y="82" font-size="14" fill="#eee6d4">Houdini</text></g>
-  <g transform="translate(442,52)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#161616"/><text x="36" y="45" font-size="16" font-weight="700" fill="#ddd">C4D</text><text x="95" y="82" font-size="14" fill="#eee6d4">Cinema 4D</text></g>
-  <g transform="translate(652,52)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#141414"/><text x="36" y="45" font-size="18" font-weight="700" fill="#fff">UE</text><text x="95" y="82" font-size="14" fill="#eee6d4">Unreal Engine</text></g>
-  <g transform="translate(862,52)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#2a203e"/><text x="36" y="45" font-size="17" font-weight="700" fill="#d8bf7a">D3D</text><text x="95" y="82" font-size="14" fill="#eee6d4">DAZ 3D</text></g>
-  <g transform="translate(22,170)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#174c57"/><text x="36" y="45" font-size="18" font-weight="700" fill="#bde9ee">MD</text><text x="95" y="82" font-size="14" fill="#eee6d4">Marvelous Designer</text></g>
-  <g transform="translate(232,170)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#6b3c1f"/><text x="36" y="45" font-size="16" font-weight="700" fill="#f3d2aa">KB3D</text><text x="95" y="82" font-size="14" fill="#eee6d4">KitBash3D</text></g>
-  <g transform="translate(442,170)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#5b4321"/><text x="36" y="45" font-size="19" font-weight="700" fill="#ead7a3">P</text><text x="95" y="82" font-size="14" fill="#eee6d4">PureRef</text></g>
-  <g transform="translate(652,170)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#242424"/><text x="36" y="45" font-size="18" font-weight="700" fill="#fff">N</text><text x="95" y="82" font-size="14" fill="#eee6d4">Nuke</text></g>
-  <g transform="translate(862,170)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#4f3a21"/><text x="36" y="45" font-size="16" font-weight="700" fill="#d8bf7a">SE</text><text x="95" y="82" font-size="14" fill="#eee6d4">SynthEyes</text></g>
-</g>
 
-<g transform="translate(60,645)">
-  <rect width="1080" height="180" rx="18" fill="url(#panel)" stroke="#3a2d16"/>
-  <text x="22" y="34" text-anchor="start" fill="#d8bf7a" font-family="Georgia,serif" font-size="18" letter-spacing="2">ART / DESIGN / ILLUSTRATION</text>
-  <g transform="translate(22,52)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#132b3b"/><text x="36" y="45" font-size="18" font-weight="700" fill="#31a8ff">Ps</text><text x="95" y="82" font-size="14" fill="#eee6d4">Photoshop</text></g>
-  <g transform="translate(232,52)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#4a2a0c"/><text x="36" y="45" font-size="18" font-weight="700" fill="#ff9a00">Ai</text><text x="95" y="82" font-size="14" fill="#eee6d4">Illustrator</text></g>
-  <g transform="translate(442,52)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#252525"/><text x="36" y="45" font-size="19" font-weight="700" fill="#fff">K</text><text x="95" y="82" font-size="14" fill="#eee6d4">Krita</text></g>
-  <g transform="translate(652,52)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#262031"/><text x="36" y="45" font-size="16" font-weight="700" fill="#fff">CS</text><text x="95" y="82" font-size="14" fill="#eee6d4">Clip Studio</text></g>
-  <g transform="translate(862,52)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#1b1b1b"/><text x="36" y="45" font-size="18" font-weight="700" fill="#fff">Fr</text><text x="95" y="82" font-size="14" fill="#eee6d4">Framer</text></g>
+  <g transform="translate(60 338)"><rect width="1080" height="300" rx="20" fill="#0d0d0b" stroke="#4f3b18"/><text x="24" y="36" fill="#d7bd79" font-family="Georgia,serif" font-size="20" letter-spacing="2">3D / CGI / WORLDS</text>
+    <g transform="translate(24 58)"><use href="#bl" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">Blender</text></g>
+    <g transform="translate(236 58)"><use href="#houd" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">Houdini</text></g>
+    <g transform="translate(448 58)"><use href="#c4d" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">Cinema 4D</text></g>
+    <g transform="translate(660 58)"><use href="#ue" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">Unreal Engine</text></g>
+    <g transform="translate(872 58)"><use href="#d3d" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">DAZ 3D</text></g>
+    <g transform="translate(24 176)"><use href="#md" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">Marvelous Designer</text></g>
+    <g transform="translate(236 176)"><use href="#kb" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">KitBash3D</text></g>
+    <g transform="translate(448 176)"><use href="#pure" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">PureRef</text></g>
+    <g transform="translate(660 176)"><use href="#nuke" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">Nuke</text></g>
+    <g transform="translate(872 176)"><use href="#eye" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">SynthEyes</text></g>
+  </g>
+
+  <g transform="translate(60 660)"><rect width="1080" height="190" rx="20" fill="#0d0d0b" stroke="#4f3b18"/><text x="24" y="36" fill="#d7bd79" font-family="Georgia,serif" font-size="20" letter-spacing="2">ART / DESIGN / ILLUSTRATION</text>
+    <g transform="translate(24 58)"><use href="#ps" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">Photoshop</text></g>
+    <g transform="translate(236 58)"><use href="#ai" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">Illustrator</text></g>
+    <g transform="translate(448 58)"><use href="#krita" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">Krita</text></g>
+    <g transform="translate(660 58)"><use href="#clip" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">Clip Studio Paint</text></g>
+    <g transform="translate(872 58)"><use href="#framer" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">Framer</text></g>
+  </g>
+
+  <g transform="translate(60 872)"><rect width="1080" height="290" rx="20" fill="#0d0d0b" stroke="#4f3b18"/><text x="24" y="36" fill="#d7bd79" font-family="Georgia,serif" font-size="20" letter-spacing="2">VFX / SIMULATION / AUDIO / PIPELINE</text>
+    <g transform="translate(24 58)"><use href="#td" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">TouchDesigner</text></g>
+    <g transform="translate(236 58)"><use href="#ember" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">EmberGen</text></g>
+    <g transform="translate(448 58)"><use href="#pi" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">Particle Illusion</text></g>
+    <g transform="translate(660 58)"><use href="#fl" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">FL Studio</text></g>
+    <g transform="translate(872 58)"><use href="#ff" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">FFmpeg</text></g>
+    <g transform="translate(130 176)"><use href="#face" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">FaceGen</text></g>
+    <g transform="translate(342 176)"><use href="#comfy" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">ComfyUI</text></g>
+    <g transform="translate(554 176)"><use href="#sub" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">Substance 3D</text></g>
+    <g transform="translate(766 176)"><use href="#open" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">OpenIV</text></g>
+    <g transform="translate(978 176)"><use href="#geo" filter="url(#shadow)"/><text x="27" y="83" text-anchor="middle" fill="#eee6d4" font-size="13">Geometry Nodes</text></g>
+  </g>
 </g>
 
-<g transform="translate(60,845)">
-  <rect width="1080" height="230" rx="18" fill="url(#panel)" stroke="#3a2d16"/>
-  <text x="22" y="34" text-anchor="start" fill="#d8bf7a" font-family="Georgia,serif" font-size="18" letter-spacing="2">VFX / SIMULATION / AUDIO / PIPELINE</text>
-  <g transform="translate(22,52)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#452d11"/><text x="36" y="45" font-size="17" font-weight="700" fill="#eacb82">TG</text><text x="95" y="82" font-size="14" fill="#eee6d4">TouchDesigner</text></g>
-  <g transform="translate(232,52)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#5a270a"/><text x="36" y="45" font-size="17" font-weight="700" fill="#ff9b2e">EG</text><text x="95" y="82" font-size="14" fill="#eee6d4">EmberGen</text></g>
-  <g transform="translate(442,52)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#472b12"/><text x="36" y="45" font-size="16" font-weight="700" fill="#d8bf7a">PI</text><text x="95" y="82" font-size="14" fill="#eee6d4">Particle Illusion</text></g>
-  <g transform="translate(652,52)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#2d1837"/><text x="36" y="45" font-size="17" font-weight="700" fill="#d0a9ff">FL</text><text x="95" y="82" font-size="14" fill="#eee6d4">FL Studio</text></g>
-  <g transform="translate(862,52)"><rect width="190" height="100" rx="14" fill="#10100d" stroke="#514120"/><rect x="12" y="12" width="48" height="48" rx="10" fill="#2a2a2a"/><text x="36" y="45" font-size="16" font-weight="700" fill="#eee6d4">FF</text><text x="95" y="82" font-size="14" fill="#eee6d4">FFmpeg</text></g>
-  <g transform="translate(127,162)"><rect width="190" height="50" rx="12" fill="#10100d" stroke="#514120"/><text x="95" y="32" font-size="14" font-weight="700" fill="#cdb879">Substance 3D</text></g>
-  <g transform="translate(337,162)"><rect width="190" height="50" rx="12" fill="#10100d" stroke="#514120"/><text x="95" y="32" font-size="14" font-weight="700" fill="#cdb879">ComfyUI</text></g>
-  <g transform="translate(547,162)"><rect width="190" height="50" rx="12" fill="#10100d" stroke="#514120"/><text x="95" y="32" font-size="14" font-weight="700" fill="#cdb879">OpenIV</text></g>
-  <g transform="translate(757,162)"><rect width="190" height="50" rx="12" fill="#10100d" stroke="#514120"/><text x="95" y="32" font-size="14" font-weight="700" fill="#cdb879">Geometry Nodes</text></g>
-</g>
-</g>
-<text x="600" y="1120" text-anchor="middle" fill="#665c4a" font-family="Arial,sans-serif" font-size="11" letter-spacing="3">IVX / HOUSE OF IVX / PRODUCTION ARSENAL</text>
+<text x="600" y="1210" text-anchor="middle" fill="#6e624c" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">IVX / HOUSE OF IVX / PRODUCTION ARSENAL</text>
 </svg>
