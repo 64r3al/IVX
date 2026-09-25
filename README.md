@@ -184,6 +184,23 @@ A systems experiment around deterministic cash-flow distribution and run-rate fo
 </tr>
 </table>
 
+### ♟ SPECIALIZED / LEGACY TOOLS
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/UB-UserBenchmark-0b0a08?style=for-the-badge&logoColor=cdb879" />
+<img src="https://img.shields.io/badge/H21-Houdini%20Launcher-0b0a08?style=for-the-badge&logoColor=cdb879" />
+<img src="https://img.shields.io/badge/K3D-Khayn%203D-0b0a08?style=for-the-badge&logoColor=cdb879" />
+<img src="https://img.shields.io/badge/FG-FaceGen-0b0a08?style=for-the-badge&logoColor=cdb879" />
+<img src="https://img.shields.io/badge/S64-SynthEyes64-0b0a08?style=for-the-badge&logoColor=cdb879" />
+<img src="https://img.shields.io/badge/PI-Particle%20Illusion-0b0a08?style=for-the-badge&logoColor=cdb879" />
+<img src="https://img.shields.io/badge/PDF-PDF%20XChange-0b0a08?style=for-the-badge&logoColor=cdb879" />
+<img src="https://img.shields.io/badge/DAZ-DAZ3DIM-0b0a08?style=for-the-badge&logoColor=cdb879" />
+<img src="https://img.shields.io/badge/MD-Marvelous%20Designer-0b0a08?style=for-the-badge&logoColor=cdb879" />
+<img src="https://img.shields.io/badge/PC-Production%20Tools-0b0a08?style=for-the-badge&logoColor=cdb879" />
+
+</div>
+
 ### ♜ CODE / CREATIVE ENGINEERING
 
 <p>
